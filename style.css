@@ -1,0 +1,75 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+}
+
+body {
+    padding: 0px;
+    margin:0px;
+    background-image: url("./img/Background.jpg");
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#top{
+   padding-top: 15vh;
+}
+h1{
+    border: 0%;
+    margin: 0%;
+    margin-left: 2vw;
+    font-size: 15vh;
+    color: aliceblue;
+}
+h2{
+    border:0%;
+    margin: 0%;
+    margin-left: 2vw;
+    font-size: 10vh;
+    color: aliceblue;
+}
+
+div.container{
+    width:30%;
+    padding: 0%;
+}
+header{
+    height: 4vh;
+    background-color: rgba(0, 0, 0, 0.151);
+}
+ul{
+    list-style-type: none;
+    color: aliceblue;
+    font-family: 'Krona One', sans-serif;
+    margin: 0%;
+    top:2vh;
+    padding-top: .8vh;
+    size: 2rem;
+}
+li{
+    display: inline;
+}
+img#gmail{
+    width: 7vw;
+  left:44.5vw;
+   margin-top: -5vh;
+   position: absolute;
+}
+img#insta{
+    width: 07vw;
+    position: absolute;
+    left:67vw;
+    top:28vh;
+}
+img#fb{
+    width:05vw;
+    position: absolute;
+    left: 68vw;
+}
+img#git{
+    width:5vw;
+    position: absolute;
+    left:23.5vw;
+    top:55vh;
+}
