@@ -36,6 +36,7 @@ div.container{
 }
 header{
     height: 4vh;
+    width:100%;
     background-color: rgba(0, 0, 0, 0.151);
 }
 ul{
@@ -73,3 +74,8 @@ img#git{
     left:23.5vw;
     top:55vh;
 }
+ @media only screen and (max-width:700px)
+ {
+     
+ } 
+     
