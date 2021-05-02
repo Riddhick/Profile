@@ -74,7 +74,7 @@ img#git{
     left:23.5vw;
     top:55vh;
 }
- @media only screen and (max-width:700px)
+ @media only screen and (max-device-width:480px) and (min-device-width:320px)
  {
  h1{
     
@@ -164,4 +164,45 @@ img#git{
         left:27vw;
     }
  }
-     
+     @media only screen and (device-width:540px){
+        h1{
+            font-size: 9vh;
+            position:absolute;
+            top:12vh;
+        }
+        h2{
+            font-size: 7vh;
+            position: absolute;
+            padding-top:2vh;
+        }
+        li{
+            font-size: 2.5vh;
+        }
+        header{
+            height: 5vh;
+        }
+        img#gmail{
+           width:10vw;
+           position: absolute;
+           top:43vh;
+           left:15vw;
+       }
+       img#git{
+           width:10vw;
+           position: absolute;
+           top:49vh;
+           left:15vw;
+       }
+       img#insta{
+           width:13vw;
+           position: absolute;
+           top:38vh;
+           left:25vw;
+       }
+       img#fb{
+           width: 10vw;
+           position: absolute;
+           top:49vh;
+           left:27vw;
+       }
+     }
