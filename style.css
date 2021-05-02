@@ -99,27 +99,69 @@ img#git{
     font-size: 2vh;
  }
  img#gmail{
-     width:10vw;
+     width:15vw;
      position: absolute;
      top:43vh;
      left:12vw;
  }
  img#git{
-     width:10vw;
+     width:15vw;
      position: absolute;
      top:49vh;
      left:12vw;
  }
  img#insta{
-     width:13vw;
+     width:20vw;
      position: absolute;
      top:38vh;
  }
  img#fb{
-     width: 10vw;
+     width: 16vw;
      position: absolute;
      top:49vh;
  }
 
  } 
+ @media only screen and (max-device-width:1024px) and (min-device-width:768px) {
+     h1{
+         font-size: 9vh;
+         position:absolute;
+         top:12vh;
+     }
+     h2{
+         font-size: 7vh;
+         position: absolute;
+         padding-top:2vh;
+     }
+     li{
+         font-size: 2.5vh;
+     }
+     header{
+         height: 5vh;
+     }
+     img#gmail{
+        width:10vw;
+        position: absolute;
+        top:43vh;
+        left:15vw;
+    }
+    img#git{
+        width:10vw;
+        position: absolute;
+        top:49vh;
+        left:15vw;
+    }
+    img#insta{
+        width:13vw;
+        position: absolute;
+        top:38vh;
+        left:25vw;
+    }
+    img#fb{
+        width: 10vw;
+        position: absolute;
+        top:49vh;
+        left:27vw;
+    }
+ }
      
