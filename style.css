@@ -50,6 +50,7 @@ ul{
 }
 li{
     display: inline;
+    padding-left: 15vw;
 }
 img#gmail{
     width: 7vw;
@@ -92,11 +93,13 @@ img#git{
     font-family: 'Krona One', sans-serif;
     margin: 0%;
     top:2vh;
-    padding-top: .8vh;
+    padding-top: 0vh;
     size: 2vh;
+    padding-left: 3vw;
  }
  li{
     font-size: 2vh;
+   padding-left:4vw;
  }
  img#gmail{
      width:15vw;
@@ -135,6 +138,7 @@ img#git{
      }
      li{
          font-size: 2.5vh;
+         padding-left: 5vw;
      }
      header{
          height: 5vh;
@@ -177,6 +181,7 @@ img#git{
         }
         li{
             font-size: 2.5vh;
+            padding-left: 5vw;
         }
         header{
             height: 5vh;
