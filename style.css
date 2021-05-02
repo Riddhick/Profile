@@ -15,14 +15,6 @@ body {
 #top{
    padding-top: 15vh;
 }
-button#ham{
-    background-color:whitesmoke;
-    border:0;
-    width:3vw;
-    height:4vh;
-    margin-left:95vw;
-    display: none;
-}
 h1{
     border: 0%;
     margin: 0%;
@@ -47,9 +39,6 @@ header{
     width:100%;
     background-color: rgba(0, 0, 0, 0.151);
 }
-header.nav_bar{
-    flex-wrap: wrap;
-}
 ul{
     list-style-type: none;
     color: aliceblue;
@@ -61,8 +50,6 @@ ul{
 }
 li{
     display: inline;
-    flex:left;
-    padding-left: 15vw;
 }
 img#gmail{
     width: 7vw;
@@ -87,21 +74,8 @@ img#git{
     left:23.5vw;
     top:55vh;
 }
- @media only screen and (max-device-width:480px) and (min-device-width:320px)
+ @media only screen and (max-width:700px)
  {
-    button#ham{
-        background-color:whitesmoke;
-        border:0;
-        width:7vw;
-        height:3vh;
-        margin-left:95vw;
-        display: block;
-        position: absolute;
-        top: .4vh;
-    }
-    ul#nav.show{
-        display:flex;
-    }
  h1{
     
     font-size:10vh;
@@ -112,9 +86,14 @@ img#git{
      font-size:9vh;
      padding-top:2vh;
  }
- ul#nav{
-    display: none;
-    width:100%;
+ ul{
+    list-style-type: none;
+    color: aliceblue;
+    font-family: 'Krona One', sans-serif;
+    margin: 0%;
+    top:2vh;
+    padding-top: .8vh;
+    size: 2vh;
  }
  li{
     font-size: 2vh;
@@ -156,7 +135,6 @@ img#git{
      }
      li{
          font-size: 2.5vh;
-         padding-left: 5vw;
      }
      header{
          height: 5vh;
@@ -186,47 +164,4 @@ img#git{
         left:27vw;
     }
  }
-     @media only screen and (device-width:540px)
-     {
-        h1{
-            font-size: 9vh;
-            position:absolute;
-            top:12vh;
-        }
-        h2{
-            font-size: 7vh;
-            position: absolute;
-            padding-top:2vh;
-        }
-        li{
-            font-size: 2.5vh;
-            padding-left:5vw;
-        }
-        header{
-            height: 5vh;
-        }
-        img#gmail{
-           width:10vw;
-           position: absolute;
-           top:43vh;
-           left:15vw;
-       }
-       img#git{
-           width:10vw;
-           position: absolute;
-           top:49vh;
-           left:15vw;
-       }
-       img#insta{
-           width:13vw;
-           position: absolute;
-           top:38vh;
-           left:25vw;
-       }
-       img#fb{
-           width: 10vw;
-           position: absolute;
-           top:49vh;
-           left:27vw;
-       }
-     }
+     
