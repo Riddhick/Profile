@@ -59,59 +59,28 @@ img#gmail{
    position: absolute;
    background: transparent;
 }
-img#gmail:hover{
-    box-shadow:0 0 100px 5px rgb(255, 255, 253);
-    border-radius: 50%;
-    transition: .5s;
-    transform: scale(.8);
-    z-index: -1;
-    filter: invert(100%);
-    background-color: rgb(252, 245, 245);
-}
+
+
 img#insta{
     width: 07vw;
     position: absolute;
     left:67vw;
     top:28vh;
 }
-img#insta:hover{
-    box-shadow:0 0 100px 5px rgb(255, 255, 253);
-    border-radius: 50%;
-    transition: .5s;
-    transform: scale(.8);
-    z-index: -1;
-    filter: invert(100%);
-    background-color: rgb(252, 245, 245);
-}
+
 img#fb{
     width:05vw;
     position: absolute;
     left: 68vw;
 }
-img#fb:hover{
-    box-shadow:0 0 100px 5px rgb(255, 255, 253);
-    border-radius: 50%;
-    transition: .5s;
-    transform: scale(.8);
-    z-index: -1;
-    filter: invert(100%);
-    background-color: rgb(252, 245, 245);
-}
+
 img#git{
     width:5vw;
     position: absolute;
     left:23.5vw;
     top:55vh;
 }
-img#git:hover{
-    box-shadow:0 0 100px 5px rgb(255, 255, 253);
-    border-radius: 50%;
-    transition: .5s;
-    transform: scale(.8);
-    z-index: -1;
-    filter: invert(100%);
-    background-color: rgb(252, 245, 245);
-}
+
 a:link{
     text-decoration: none;
     Color: rgb(240, 240, 250);
