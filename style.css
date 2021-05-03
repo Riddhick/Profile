@@ -21,6 +21,19 @@ h1{
     margin-left: 2vw;
     font-size: 15vh;
     color: aliceblue;
+    background: linear-gradient(to right, rgb(255, 255, 255) 50%, #ffffff 30%, #000000);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .5s ease-out;
+    position: absolute;
+    top:10vh;
+}
+h1:hover{
+    background-position: -100%;
+    box-shadow:2px 5px 10px #080808;
+    border-radius: 5%;
 }
 h2{
     border:0%;
@@ -28,6 +41,8 @@ h2{
     margin-left: 2vw;
     font-size: 10vh;
     color: aliceblue;
+    position: absolute;
+    top:25vh;
 }
 
 div.container{
@@ -55,6 +70,7 @@ li{
 input#gmail{
     width: 7vw;
   left:44.5vw;
+  top:47vh;
    margin-top: -5vh;
    position: absolute;
    background: transparent;
@@ -70,19 +86,20 @@ input#insta{
     width: 05vw;
     position: absolute;
     left:68vw;
-    top:28vh;
+    top:30vh;
 }
 
 input#fb{
     width:05vw;
     position: absolute;
     left: 68vw;
+    top:50vh;
 }
 
 input#git{
     width:5vw;
     position: absolute;
-    left:23.5vw;
+    left:24vw;
     top:55vh;
 }
 
@@ -100,7 +117,7 @@ a{
     
     font-size:10vh;
     position: absolute;
-    top:10vh;
+    top:15vh;
  }
  h2{
      font-size:9vh;
@@ -148,7 +165,8 @@ a{
      h1{
          font-size: 9vh;
          position:absolute;
-         top:12vh;
+         top:16vh;
+        
      }
      h2{
          font-size: 7vh;
@@ -191,7 +209,7 @@ a{
         h1{
             font-size: 9vh;
             position:absolute;
-            top:12vh;
+            top:16vh;
         }
         h2{
             font-size: 7vh;
