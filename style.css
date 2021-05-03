@@ -75,7 +75,7 @@ img#git{
     left:23.5vw;
     top:55vh;
 }
- @media only screen and (max-device-width:480px) and (min-device-width:320px)
+ @media screen and (max-width:480px) and (min-width:320px)
  {
  h1{
     
@@ -125,7 +125,7 @@ img#git{
  }
 
  } 
- @media only screen and (max-device-width:1024px) and (min-device-width:768px) {
+ @media screen and (max-width:1024px) and (min-width:768px) {
      h1{
          font-size: 9vh;
          position:absolute;
@@ -168,7 +168,7 @@ img#git{
         left:27vw;
     }
  }
-     @media only screen and (device-width:540px){
+     @media screen and (min-width:481px) and (max-width:767px){
         h1{
             font-size: 9vh;
             position:absolute;
